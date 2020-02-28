@@ -1,0 +1,113 @@
+body{
+    background-color: #1d1d1d;
+    
+}
+
+
+.aa{
+    margin-top: -250px;
+    margin-left: 600px;
+}
+
+.sorusor{
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    box-shadow: #1d1d1d;
+    width:600px;
+    height:40px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.sor {
+    background-color: transparent;
+    color:white;
+    border-color: gray;
+    font-family: 'Fredoka One', cursive;
+    width:60px;
+    height:40px;
+    
+}
+
+.button{
+    background-color: transparent;
+    color:white;
+    border-color: gray;
+    font-family: 'Fredoka One', cursive;
+    width:100px;
+    height:40px;
+}
+
+
+.başlık{
+    color:white;
+    margin-left: 500px;
+    margin-top: 130px;
+    animation: type 1.5s steps(40);
+    overflow: hidden;
+    white-space: nowrap;
+   font-family: 'Fredoka One', cursive;
+}
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+    100% {
+        width: 22ch;
+    }
+}
+
+.yazı{
+    color:white;
+    margin-left: 500px;
+    animation: type 2s steps(40);
+    overflow: hidden;
+    white-space: nowrap;
+   font-family: 'Fredoka One', cursive;
+}
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+    100% {
+        width: 100ch;
+    }
+}
+
+
+.xx{
+    color:  white;
+    font-family: 'Fredoka One', cursive;
+    font-size: medium;
+}
+
+.zz{
+    color:  white;
+    font-family: 'Fredoka One', cursive;
+    font-size: medium;
+}
+
+
+.oo{
+    background-color: transparent;
+    color:white;
+    border-color: gray;
+    font-family: 'Fredoka One', cursive;
+    width:100px;
+    height:50px;
+    
+
+    
+}
+
+.resim {
+    margin-left: 120px;
+    width: 200px;
+    position: relative;
+    --x: 0;
+    --y: 0;
+    --rotateX: 0;
+    --rotate: 0;
+    transform: translateX(var(--x)) translateY(var(--y)) rotateY(var(--rotateX)) rotate(var(--rotate));
+    transition: transform 0.2s;
+  }
